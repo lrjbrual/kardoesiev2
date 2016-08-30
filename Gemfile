@@ -11,9 +11,9 @@ gem 'redis'
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'
+gem 'coffee-rails', '~> 4.1.0'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-gem 'simple_form'
 gem 'autoprefixer-rails'
 
 group :development, :test do
@@ -23,8 +23,12 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
-  
-  
+
+
 end
+
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
 
 gem 'rails_12factor', group: :production
