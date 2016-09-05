@@ -8,11 +8,73 @@
  *= require_self
  *= require_tree .
 */
-@import 'header';
-@import 'content';
 
 * {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
+}
+
+/* Header layout */
+#head-nav {
+  background-color: #FAFAFA;
+  width:100%;
+  // -webkit-box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
+  // -moz-box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
+  // box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
+}
+
+.navbar-nav > li > a {
+  color: #424242;
+}
+
+#spree-header .nav a {
+    color: #424242;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* Content layout */
+.panel-default{
+  border-color: #65DAC9;
+  -webkit-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
+}
+.lead{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+.panel-footer{
+  background-color: #00B420;
+}
+.info{
+  font-weight: bold;
+}
+.jumbotron {
+    background-size: 100% 100%;
+    background:  url('background.jpg') no-repeat center center;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-box-shadow: -1px 3px 13px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 13px -4px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 13px -4px rgba(0,0,0,0.75);
+}
+#jumbotron-spacing{
+  height:230px;
+}
+#shopnow-button{
+  background-color: #00B420;
+  float: right;
+  margin-right: 180px;
+  // -webkit-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
+  // -moz-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
+  // box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #FE8888;
 }
