@@ -8,6 +8,9 @@
  *= require_self
  *= require_tree .
 */
+@import 'header';
+@import 'content';
+
 * {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
