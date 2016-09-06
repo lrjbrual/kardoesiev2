@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'autoprefixer-rails'
+gem 'aws-sdk'
 
 group :development, :test do
   gem 'binding_of_caller'
