@@ -17,15 +17,15 @@
 
 /* Header layout */
 #head-nav {
-  background-color: #FAFAFA;
+  background-color: #F3BDAC;
   width:100%;
-  // -webkit-box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
+  /*// -webkit-box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
   // -moz-box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
-  // box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);
+  // box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.75);*/
 }
 
 .navbar-nav > li > a {
-  color: #424242;
+  color: #424754;
 }
 
 #spree-header .nav a {
@@ -36,22 +36,28 @@
 
 /* Content layout */
 .panel-default{
-  border-color: #65DAC9;
+  border-color: white;
   -webkit-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
   box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);
 }
 .lead{
   font-size: 18px;
-  font-style: italic;
-  font-weight: bold;
-  color: white;
+  /*font-style: italic;
+  font-weight: bold;*/
+  color: #C9A985;
 }
 .panel-footer{
-  background-color: #00B420;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
 }
 .info{
-  font-weight: bold;
+  font-size: 15px;
+  color: black;
+
+}
+a .info{
+    text-decoration: none;
 }
 .jumbotron {
     background-size: 100% 100%;

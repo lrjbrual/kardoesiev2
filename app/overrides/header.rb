@@ -85,7 +85,9 @@ Deface::Override.new(
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
             <ul class='nav navbar-nav navbar-right'>
-              <li class='active' data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
+              <li class='active' data-hook>
+                <%= link_to Spree.t(:home), spree.root_path %>
+              </li>
               <li id='products-link' data-hook><%= link_to Spree.t(:products), spree.products_path %></li>
               <% if spree_current_user %>
                 <li><%= link_to Spree.t(:my_account), spree.account_path %></li>
