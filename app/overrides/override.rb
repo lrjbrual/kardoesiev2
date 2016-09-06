@@ -5,7 +5,6 @@ Deface::Override.new(
   )
 
 
-
 Deface::Override.new(
  virtual_path: "spree/home/index",
  name: "login",

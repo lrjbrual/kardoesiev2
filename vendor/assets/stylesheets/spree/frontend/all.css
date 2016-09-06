@@ -61,7 +61,7 @@ a .info{
 }
 .jumbotron {
     background-size: 100% 100%;
-    background:  url('banner-clothes.jpeg') no-repeat center center;
+    background:  url('banner-clothes.jpeg') no-repeat center;
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
