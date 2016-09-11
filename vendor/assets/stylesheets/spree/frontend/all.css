@@ -26,6 +26,7 @@
 
 .navbar-nav > li > a {
   color: #424754;
+  font-size: 12 px;
 }
 
 #spree-header .nav a {
@@ -125,4 +126,9 @@ footer {
 #return-to-top:hover i {
     color: white;
     top: 5px;
+}
+
+/* Contact Page */
+#company-logo {
+  weight: 50px;
 }
