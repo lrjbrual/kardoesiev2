@@ -3,6 +3,7 @@ ruby '2.3.0'
 
 gem 'rails', '4.2.6'
 gem 'puma'
+gem 'dotenv-rails', :groups => [:development, :test]
 gem 'pg'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
@@ -16,7 +17,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'autoprefixer-rails'
 gem 'paperclip'
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk', '~> 1.61.0'
 
 group :development, :test do
   gem 'binding_of_caller'
