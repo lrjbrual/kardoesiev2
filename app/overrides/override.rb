@@ -13,9 +13,7 @@ Deface::Override.new(
         <div class='container text-center'>
         <div id='jumbotron-spacing'>
         </div>
-        <p>
-          <a class='btn btn-lg btn-success'  role='button'><%= link_to Spree.t(:shop_now), spree.products_path %></a>
-        </p>
+          <%= link_to Spree.t(:shop_now), spree.products_path, class: 'btn-shop' %>
         </div>
       </div>
       "

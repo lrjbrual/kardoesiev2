@@ -1,89 +1,68 @@
 <!-- insert_bottom 'body' -->
-
 <footer class="footer">
 <hr>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="col-sm-4">
-          <div class="footer-logo">
-            <br>
-            <h4>Kardoesie</h4>
-            <h6>~In God we Trust~</h6>
-            <p>Online Shopping Accessories<br/> Vat Num: NL244841664B01</p>
-            <p class="muted">© 2016 <b>Kardoesie</b></p>
-          </div>
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-2">
-          <h5>Resources</h5>
-          <ul class="list-unstyled">
-            <li><a href="#">How To Start</a></li>
-            <li><a target="_blank" href="#">FAQs</a></li>
-            <li><a href="#">Terms of Service</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
-          <h5>Support</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" target="_blank">Technical Support</a></li>
-            <li><a href="#" target="_blank">Community Forums</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
-          <h5>Company</h5>
-          <ul class="list-unstyled">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Jobs <span class="btn btn-primary btn-xs">We're hiring!</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 text-center">
         <div class="newsletter" id="email">
+            <div class="col-md-3">
+              <div class="footer-logo">
+                <h4><strong>Kardoesie</strong></h4>
+                <h6>In God we Trust</h6>
+                <p>Online Shopping Accessories<br/> Vat Num: NL244841664B01</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h5>Resources</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">How To Start</a></li>
+                <li><a target="_blank" href="#">FAQs</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Follow Us On</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">FaceBook</a></li>
+                <li><a>Twitter</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-center">
+            <p>
+              <strong>Stay updated!</strong>
+            </p>
           <form action="subscribe" id="invite" method="POST" onsubmit="return false;">
-            <h5><strong>Newsletter</strong></h5>
-            <p>Join Our Newseletter and stay updated!</p>
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
-              <input class="form-control" type="text" placeholder="your@email.com" name="email" id="address">
-            </div>
-            <div class="col-md-3">
+              <input class="form-control" type="text" placeholder="your@email.com" name="email" id="email">
+              </input>
               <input class="btn btn-block btn-success btnsignup" type="submit" value="Sign up">
+              </input>
             </div>
-            <div class="col-md-3"></div>
-            <div class="clearfix"></div>
-            <br>
-            <div class="col-md-3"></div>
-            <div class="col-md-6"><span id="result"></span></div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3"><span id="result"></span></div>
           </form>
         </div>
-        <script type="text/javascript">
-          $(document).ready(function() {
-          $(".btnsignup").on("click",function(){
-          var email = $("#address").val();
-          if(validateEmail(email)){
-          $.post("http://phptravels.com/subscribe.php",$("#invite").serialize(),function(resp){
-          // console.log(resp);
-          $("#result").html("<div class='alert alert-success'>"+resp+"</div>").fadeIn("slow");
-          });
-          }else{
-          $("#result").html("");
-          $("#result").html("<div class='alert alert-danger'>Email Address is Invalid</div>").fadeIn("slow");
-          }
-          setTimeout(function(){  $("#result").html("");  }, 15000);
-          });
-          });
-          function validateEmail(email) {
-          var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-          return re.test(email);
-          }
-        </script>
       </div>
     </div>
+    <p class="muted">© 2016 Copyright by <strong>Kardoesie</strong>&nbsp;| &nbsp;&nbsp;code by&nbsp;<strong>RyanJeff</strong></p>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $(".btnsignup").on("click",function(){
+      var email = $("#address").val();
+      if(validateEmail(email)){
+      $.post("http://phptravels.com/subscribe.php",$("#invite").serialize(),function(resp){
+      // console.log(resp);
+      $("#result").html("<div class='alert alert-success'>"+resp+"</div>").fadeIn("slow");
+      });
+      }else{
+      $("#result").html("");
+      $("#result").html("<div class='alert alert-danger'>Email Address is Invalid</div>").fadeIn("slow");
+      }
+      setTimeout(function(){  $("#result").html("");  }, 15000);
+      });
+      });
+      function validateEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      return re.test(email);
+      }
+    </script>
   </div>
 </footer>

@@ -10,11 +10,32 @@
 */
 
 * {
-  -webkit-border-radius: 0 !important;
-     -moz-border-radius: 0 !important;
-          border-radius: 0 !important;
+  -webkit-border-radius: 2 !important;
+     -moz-border-radius: 2 !important;
+          border-radius: 2 !important;
 }
 
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
 /* Header layout */
 #head-nav {
   background-color: #F3BDAC;
@@ -28,11 +49,13 @@
   color: #424754;
   font-size: 12 px;
 }
-
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #FE8888;
+}
 #spree-header .nav a {
     color: #424242;
     height: 50px;
-    font-weight: bold;
 }
 
 /* Content layout */
@@ -51,6 +74,9 @@
 .panel-footer{
   padding: 10px 15px;
   background-color: #f5f5f5;
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
 }
 .info{
   font-size: 15px;
@@ -62,22 +88,53 @@ a .info{
 }
 .jumbotron {
     background-size: 100% 100%;
-    background:  url('banner-clothes.jpeg') no-repeat center;
+    background:  url('banner-bag.jpeg') no-repeat center;
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
+    -webkit-border-radius: 0 !important;
+       -moz-border-radius: 0 !important;
+            border-radius: 0 !important;
 }
 #jumbotron-spacing{
   height:220px;
 }
-#shopnow-button{
+/*#shopnow-button{
   background-color: #00B420;
-}
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #fff;
-    background-color: #FE8888;
+}*/
+.btn-shop {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 3px #666666;
+  -moz-box-shadow: 0px 0px 3px #666666;
+  box-shadow: 0px 0px 3px #666666;
+  font-family: Courier New;
+  color: black;
+  font-size: 25px;
+  background: #F3BDAC;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
+.btn-shop:hover {
+  background: white;
+  text-decoration: none;
+}
+
+input#email{
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+input.btnsignup{
+  background-color: #f3bdac;
+  border-color: #f3bdac;
+  color: black;
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
 footer {
     position: relative;
     left: 0;
