@@ -17,6 +17,7 @@ end
 
 Spree.user_class = "Spree::User"
 
+
 attachment_config = {
 
   s3_credentials: {

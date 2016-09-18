@@ -89,6 +89,7 @@ Deface::Override.new(
                 <%= link_to Spree.t(:home), spree.root_path %>
               </li>
               <li id='products-link' data-hook><%= link_to Spree.t(:products), spree.products_path %></li>
+              <li id='about-link' data-hook><%= link_to Spree.t(:contact_us), main_app.contact_path %></li>
               <% if spree_current_user %>
                 <li><%= link_to Spree.t(:my_account), spree.account_path %></li>
                 <li><%= link_to Spree.t(:logout), spree.logout_path %></li>
