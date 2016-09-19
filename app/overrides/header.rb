@@ -79,7 +79,7 @@ Deface::Override.new(
               <span class='icon-bar'></span>
               <span class='icon-bar'></span>
             </button>
-            <a class='navbar-brand' href=''>Kardoesie</a>
+            <%= image_tag(('logo.png'), class: 'company-logo') %>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
