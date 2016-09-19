@@ -7,7 +7,7 @@
         <div class="newsletter" id="email">
             <div class="col-md-3">
               <div class="footer-logo">
-                <h4><strong>Kardoesie</strong></h4>
+                <h4 class="font-logo"><strong>Kardoesie</strong></h4>
                 <h6>In God we Trust</h6>
                 <p>Online Shopping Accessories<br/> Vat Num: NL244841664B01</p>
               </div>

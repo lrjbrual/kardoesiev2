@@ -29,7 +29,7 @@ html {
 }
 
 .navbar-nav > li > a {
-  color: #424754;
+  color: #611700;
   font-size: 12 px;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
@@ -40,7 +40,10 @@ html {
     color: #424242;
     height: 50px;
 }
-
+img.company-logo{
+  height: 50px;
+  width:180px;
+}
 /* Content layout */
 .panel-default{
   border-color: white;
@@ -71,7 +74,7 @@ a .info{
 }
 .jumbotron {
     background-size: 100% 100%;
-    background:  url('banner-bag.jpeg') no-repeat center;
+    background:  url('bag-banner.jpg') no-repeat center;
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -171,4 +174,8 @@ footer {
 /* Contact Page */
 #company-logo {
   weight: 50px;
+}
+/* footer */
+h4.font-logo{
+  color: #611700;
 }
