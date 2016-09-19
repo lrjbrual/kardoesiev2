@@ -3,6 +3,7 @@ log/*.log
 tmp/**/*
 tmp/*
 *.swp
+.env
 .DS_Store
 public/assets
 
