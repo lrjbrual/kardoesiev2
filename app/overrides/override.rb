@@ -20,12 +20,13 @@ Deface::Override.new(
       "
     end
 
+
 #deface content
   Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
   name: "remove_sidebar",
   replace: "div.container") do
     "
-      <div class='container'>
+      <div class='wrapper'>
          <div class='row' data-hook>
            <%= breadcrumbs(@taxon) %>
            <%= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>

@@ -4,7 +4,7 @@ name: "replace_productdesign",
 replace: "div#products") do
   "
   <% if products.any? %>
-    <div id='products' class='row' data-hook>
+    <div id='products' class='row container' data-hook>
       <% products.each do |product| %>
         <% url = spree.product_url(product, taxon_id: @taxon.try(:id)) %>
         <div id='product_<%= product.id %>' class='col-md-3 col-sm-6 col-xs-6 product-list-item' data-hook='products_list_item' itemscope itemtype='https://schema.org/Product'>
