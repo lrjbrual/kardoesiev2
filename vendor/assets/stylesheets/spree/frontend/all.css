@@ -87,82 +87,67 @@ a .info {
 a .info{
     text-decoration: none;
 }
-/*.jumbotron-image {
-    background-size: 100% 100%;
-    background:  url('bag-banner.jpg') no-repeat center;
-    -moz-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    -webkit-border-radius: 0 !important;
-       -moz-border-radius: 0 !important;
-            border-radius: 0 !important;
-}*/
 
-/* carousel */
 /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
+-------------------------------------------------- */
 
-  /* Carousel base class */
-  .carousel {
-    margin-bottom: 60px;
-  }
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
 
-  .carousel .container {
-    position: relative;
-    z-index: 9;
-  }
+.carousel .container {
+  position: relative;
+  z-index: 9;
+}
 
-  .carousel-control {
-    /*height: 80px;*/
-    margin-top: 0;
-    font-size: 120px;
-    text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    background-color: transparent;
-    border: 0;
-    z-index: 10;
-  }
+.carousel-control {
+  /*height: 80px;*/
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+}
 
-  .carousel .item {
-    height: 400px;
-  }
-  .carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 400px;
-  }
+.carousel .item {
+  height: 500px;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  opacity: 5;
+}
 
-  .carousel img.image-banner{
-    height: 400px;
-  }
-  .carousel-caption {
-    background-color: transparent;
-    position: static;
-    max-width: 550px;
-    padding: 0 20px;
-    margin-top: 200px;
-  }
-  .carousel-caption h1,
-  .carousel-caption .lead {
-    margin: 0;
-    line-height: 1.25;
-    color: #fff;
-    text-shadow: 0 1px 1px rgba(0,0,0,.4);
-  }
-  .carousel-caption .btn {
-    margin-top: 10px;
-  }
+.carousel img.image-banner{
+  height: 500px;
+}
+.carousel-caption {
+  background-color: transparent;
+  position: static;
+  padding: 0 20px;
+  margin-top: 300px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+/* Product view */
+#products{
+  display: block;
+  margin: auto;
+}
 
-
-
-
-/*#jumbotron-spacing{
-  height:220px;
-}*/
-/*#shopnow-button{
-  background-color: #00B420;
-}*/
 .btn-shop {
   -webkit-border-radius: 7;
   -moz-border-radius: 7;
