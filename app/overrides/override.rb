@@ -4,21 +4,6 @@ Deface::Override.new(
   remove: "aside#sidebar"
   )
 
-##for Jumbotron
-Deface::Override.new(
- virtual_path: "spree/home/index",
- name: "jumbotron",
- insert_before: "[data-hook='homepage_products']",
- text: "<div class='jumbotron'>
-        <div class='container text-center'>
-        <div id='jumbotron-spacing'>
-        </div>
-          <%= link_to Spree.t(:shop_now), spree.products_path, class: 'btn-shop' %>
-          <div class='fb-like' data-href='https://www.facebook.com/Kardoesie-Vivace-and-Cotton-Road-590068331165047/'' data-layout='button_count' data-action='like' data-size='large' data-show-faces='false' data-share='true'></div>
-        </div>
-      </div>
-      "
-)
 Deface::Override.new(
  virtual_path: "spree/layouts/spree_application",
  name: "facebook",

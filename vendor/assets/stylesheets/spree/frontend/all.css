@@ -87,7 +87,7 @@ a .info {
 a .info{
     text-decoration: none;
 }
-.jumbotron {
+.jumbotron-image {
     background-size: 100% 100%;
     background:  url('bag-banner.jpg') no-repeat center;
     -moz-background-size: 100% 100%;
