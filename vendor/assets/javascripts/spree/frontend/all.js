@@ -25,5 +25,5 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 });
 
 $(function(){
-  $('#carousel-example-generic').carousel();
+  $('#myCarousel').carousel();
 });
