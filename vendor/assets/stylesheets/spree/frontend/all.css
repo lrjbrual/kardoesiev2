@@ -18,6 +18,12 @@
 html {
   font-size: 14px;
 }
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 
 /* Header layout */
 #head-nav {
@@ -45,6 +51,15 @@ img.company-logo{
   width:180px;
 }
 /* Content layout */
+img.img-size{
+  width: 230px;
+  height: 129px;
+}
+a .info {
+    text-decoration: none;
+    color: #611700;
+    font-weight: bold;
+}
 .panel-default{
   border-color: white;
   -webkit-box-shadow: 2px 4px 13px -4px rgba(0,0,0,0.75);

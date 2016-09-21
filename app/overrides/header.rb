@@ -90,12 +90,19 @@ Deface::Override.new(
               </li>
               <li id='products-link' data-hook><%= link_to Spree.t(:products), spree.products_path %></li>
               <li id='about-link' data-hook><%= link_to Spree.t(:contact_us), main_app.contact_path %></li>
-              <% if spree_current_user %>
-                <li><%= link_to Spree.t(:my_account), spree.account_path %></li>
-                <li><%= link_to Spree.t(:logout), spree.logout_path %></li>
-              <% else %>
-                <li id='link-to-login'><%= link_to Spree.t(:login), spree.login_path %></li>
-              <% end %>
+              <li class='dropdown'>
+                <a class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Account</a>
+                <ul class='dropdown-menu'>
+                  <% if spree_current_user %>
+                    <li><%= link_to Spree.t(:my_account), spree.account_path %></li>
+                    <li><%= link_to Spree.t(:logout), spree.logout_path %></li>
+                  <% else %>
+                    <li id='link-to-login'><%= link_to Spree.t(:login), spree.login_path %></li>
+                  <% end %>
+                </ul>
+              </li>
+
+
               <li id='link-to-cart' data-hook>
                 <noscript>
                   <%= link_to Spree.t(:cart), '/cart' %>
