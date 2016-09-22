@@ -163,6 +163,10 @@ a .info{
   display: block;
   margin: auto;
 }
+.contain-show{
+  display: block;
+  margin: auto;
+}
 
 .btn-shop {
   -webkit-border-radius: 7;
