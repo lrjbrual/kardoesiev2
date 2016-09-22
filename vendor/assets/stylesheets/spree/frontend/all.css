@@ -4,11 +4,10 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *
  *= require spree/frontend
-
+ *= require font-awesome
  *= require_self
  *= require_tree .
 */
-
 * {
   -webkit-border-radius: 2 !important;
      -moz-border-radius: 2 !important;
@@ -92,6 +91,19 @@ a .info{
 -------------------------------------------------- */
 
 /* Carousel base class */
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 2px solid #21B6A8;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: transparent;
+}
+
 .carousel {
   margin-bottom: 60px;
 }
@@ -113,6 +125,10 @@ a .info{
 
 .carousel .item {
   height: 500px;
+  -webkit-transition: 0.8s ease-in-out left;
+ -moz-transition: 0.8s ease-in-out left;
+ -o-transition: 0.8s ease-in-out left;
+ transition: 0.8s ease-in-out left;
 }
 .carousel img {
   position: absolute;
@@ -187,6 +203,11 @@ footer {
     bottom: 0;
     height: 100px;
     width: 100%;
+}
+
+.fa-facebook-official:before {
+    content: "\f230";
+    color: #611700;
 }
 
 
