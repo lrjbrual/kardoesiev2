@@ -13,6 +13,13 @@
               </div>
             </div>
             <div class="col-md-3">
+              <h5>Contact</h5>
+              <ul class="list-unstyled">
+                <p>+31 65190 0027</p>
+                <p><a href="mailto:kardoesie@gmail.com">infor@kardoesie.nl</a></p>
+              </ul>
+            </div>
+            <div class="col-md-3">
               <h5>Resources</h5>
               <ul class="list-unstyled">
                 <li><a href="#">How To Start</a></li>
@@ -23,46 +30,13 @@
             <div class="col-md-3">
               <h5>Follow Us On</h5>
               <ul class="list-unstyled">
-                <li><a href="#">FaceBook</a></li>
-                <li><a>Twitter</a></li>
+                <li><a href="https://www.facebook.com/Kardoesie-Vivace-and-Cotton-Road-590068331165047/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
               </ul>
             </div>
-            <div class="col-md-3 text-center">
-            <p>
-              <strong>Stay updated!</strong>
-            </p>
-          <form action="subscribe" id="invite" method="POST" onsubmit="return false;">
-              <input class="form-control" type="text" placeholder="your@email.com" name="email" id="email">
-              </input>
-              <input class="btn btn-block btn-success btnsignup" type="submit" value="Sign up">
-              </input>
-            </div>
-            <div class="col-md-3"><span id="result"></span></div>
-          </form>
-        </div>
+          </div>
       </div>
     </div>
-    <p class="muted">© 2016 Copyright by <strong>Kardoesie</strong>&nbsp;| &nbsp;&nbsp;code by&nbsp;<strong>RyanJeff</strong></p>
-    <script type="text/javascript">
-      $(document).ready(function() {
-      $(".btnsignup").on("click",function(){
-      var email = $("#address").val();
-      if(validateEmail(email)){
-      $.post("http://phptravels.com/subscribe.php",$("#invite").serialize(),function(resp){
-      // console.log(resp);
-      $("#result").html("<div class='alert alert-success'>"+resp+"</div>").fadeIn("slow");
-      });
-      }else{
-      $("#result").html("");
-      $("#result").html("<div class='alert alert-danger'>Email Address is Invalid</div>").fadeIn("slow");
-      }
-      setTimeout(function(){  $("#result").html("");  }, 15000);
-      });
-      });
-      function validateEmail(email) {
-      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-      return re.test(email);
-      }
-    </script>
+    <hr>
+    <p class="muted">© 2016 <strong>Kardoesie.</strong> All rights reserved. &nbsp;|&nbsp;<a href="#">Terms</a>&nbsp;<a href="#">Privacy</a>&nbsp;| &nbsp;&nbsp; Made with Love&nbsp;<i class="fa fa-heart" aria-hidden="true"></i> by&nbsp;<strong><a href="http://lrjbrual.com">RyanJeff</a></strong></p>
   </div>
 </footer>
