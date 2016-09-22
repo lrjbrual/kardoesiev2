@@ -1,8 +1,8 @@
-Deface::Override.new(
-  virtual_path: "spree/shared/_sidebar",
-  name: "remove_sidebar",
-  remove: "aside#sidebar"
-  )
+  # Deface::Override.new(
+  #   virtual_path: "spree/shared/_sidebar",
+  #   name: "remove_sidebar",
+  #   remove: "aside#sidebar"
+  #   )
 
 Deface::Override.new(
  virtual_path: "spree/layouts/spree_application",
@@ -28,8 +28,7 @@ Deface::Override.new(
     "
       <div class='wrapper'>
          <div class='row' data-hook>
-           <%= breadcrumbs(@taxon) %>
-           <%= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>
+          <%= breadcrumbs(@taxon) %>
           <div id='content' class='<%= !content_for?(:sidebar) ? 'col-sm-12' : 'col-sm-8 col-md-12' %>' data-hook>
             <%= flash_messages %>
             <%= yield %>
@@ -39,13 +38,3 @@ Deface::Override.new(
       </div>
     "
   end
-
-# #deface body for java script
-# Deface::Override.new(
-#  virtual_path: "spree/layouts/spree_application",
-#  name: "icon-return",
-#  insert_before: "div#spree-header",
-#  text: "
-#  <a href='javascript:' id='return-to-top'><i class='icon-chevron-up'></i></a>
-#  "
-#  )
