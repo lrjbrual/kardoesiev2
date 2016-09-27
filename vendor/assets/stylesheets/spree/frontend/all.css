@@ -23,7 +23,6 @@ body {
 	flex-direction: column;
 }
 
-
 /* Header layout */
 #head-nav {
   background-color: white;
@@ -187,7 +186,32 @@ a .info{
   background: white;
   text-decoration: none;
 }
-
+/* pagination after cards */
+.pagination {
+    display: inline-block;
+    margin: 0 30px;
+    float: right;
+    border-radius: 4px;
+  }
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: #611700;
+    border-color: #611700;
+    cursor: default;
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #D4BEAF;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+/* end Pagination */
 input#email{
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;

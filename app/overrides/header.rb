@@ -101,8 +101,6 @@ Deface::Override.new(
                   <% end %>
                 </ul>
               </li>
-
-
               <li id='link-to-cart' data-hook>
                 <noscript>
                   <%= link_to Spree.t(:cart), '/cart' %>

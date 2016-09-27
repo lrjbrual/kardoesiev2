@@ -10,7 +10,6 @@ Deface::Override.new(
                <li data-target='#myCarousel' data-slide-to='1'></li>
                <li data-target='#myCarousel' data-slide-to='2'></li>
                <li data-target='#myCarousel' data-slide-to='3'></li>
-               <li data-target='#myCarousel' data-slide-to='4'></li>
              </ol>
    <div class='carousel-inner'>
      <div class='item active'>
@@ -49,17 +48,8 @@ Deface::Override.new(
          </div>
        </div>
      </div>
-     <div class='item'>
-       <%= image_tag(('kardoesie-banner.jpg'), class: 'img-responsive image-banner') %>
-       <div class='container'>
-         <div class='carousel-caption'>
-         <br /><br />
-         <%= link_to Spree.t(:shop_now), spree.products_path, class: 'btn-shop' %>
-         </div>
-       </div>
      </div>
    </div>
  </div>
-
 "
 )
