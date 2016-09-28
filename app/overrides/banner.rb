@@ -16,7 +16,7 @@ Deface::Override.new(
        <%= image_tag(('banner-bag01.jpeg'), class: 'img-responsive image-banner') %>
        <div class='container'>
          <div class='carousel-caption'>
-           <h2>Grab our latest products <br />20% off until September 30, 2016</h2>
+           <br /><br />
            <%= link_to Spree.t(:shop_now), spree.products_path, class: 'btn-shop' %>
          </div>
        </div>
@@ -25,7 +25,7 @@ Deface::Override.new(
        <%= image_tag(('banner-bag02.jpeg'), class: 'img-responsive image-banner') %>
        <div class='container'>
          <div class='carousel-caption'>
-         <h2>Grab our latest products <br />20% off until September 30, 2016</h2>
+         <br /><br />
          <%= link_to Spree.t(:shop_now), spree.products_path, class: 'btn-shop' %>
          </div>
        </div>
