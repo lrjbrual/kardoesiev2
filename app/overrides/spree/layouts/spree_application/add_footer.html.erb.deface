@@ -9,18 +9,18 @@
               <div class="footer-logo">
                 <h4 class="font-logo"><strong>Kardoesie</strong></h4>
                 <h6>In God we Trust</h6>
-                <p>Online Shopping Accessories<br/> Business No. 66528275</p>
+                <p>Vivace and Cotton Road Online Shopping<br/> <strong>Business No.</strong> 66528275</p>
               </div>
             </div>
             <div class="col-md-3">
-              <h5>Contact</h5>
+              <h5><strong>Contact</strong></h5>
               <ul class="list-unstyled">
                 <p>+31 65190 0027</p>
-                <p><a href="mailto:kardoesie@gmail.com">infor@kardoesie.nl</a></p>
+                <p><a href="mailto:info@kardoesie.nl">info@kardoesie.nl</a></p>
               </ul>
             </div>
             <div class="col-md-3">
-              <h5>Resources</h5>
+              <h5><strong>Resources</strong></h5>
               <ul class="list-unstyled">
                 <li><a href="#">How To Start</a></li>
                 <li><a target="_blank" href="#">FAQs</a></li>
@@ -28,10 +28,15 @@
               </ul>
             </div>
             <div class="col-md-3">
-              <h5>Follow Us On</h5>
+              <h5><strong>Follow Us On</strong></h5>
               <ul class="list-unstyled">
-                <li><a href="https://www.facebook.com/Kardoesie-Vivace-and-Cotton-Road-590068331165047/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>&nbsp;<strong>facebook</strong></a></li>
+                <div class="fb-follow" data-href="https://www.facebook.com/kardoesie.nl/" data-layout="button_count" data-size="small" data-show-faces="true"></div>
               </ul>
+              <h5><strong>We accept all major credit cards</strong></h5>
+                <i class="fa fa-cc-amex fa-2x" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-cc-visa fa-2x" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-cc-mastercard fa-2x" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-cc-discover fa-2x" aria-hidden="true"></i>
             </div>
           </div>
       </div>
