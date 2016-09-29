@@ -16,7 +16,7 @@
               <h5>Contact</h5>
               <ul class="list-unstyled">
                 <p>+31 65190 0027</p>
-                <p><a href="mailto:kardoesie@gmail.com">infor@kardoesie.nl</a></p>
+                <p><a href="mailto:info@kardoesie.nl">info@kardoesie.nl</a></p>
               </ul>
             </div>
             <div class="col-md-3">
@@ -32,6 +32,11 @@
               <ul class="list-unstyled">
                 <li><a href="https://www.facebook.com/Kardoesie-Vivace-and-Cotton-Road-590068331165047/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>&nbsp;<strong>facebook</strong></a></li>
               </ul>
+              <h5>We accept all major credit cards</h5>
+              <i class="fa fa-cc-amex" aria-hidden="true"></i>&nbsp;
+              <i class="fa fa-cc-visa" aria-hidden="true"></i>&nbsp;
+              <i class="fa fa-cc-mastercard" aria-hidden="true"></i>&nbsp;
+              <i class="fa fa-cc-discover" aria-hidden="true"></i>
             </div>
           </div>
       </div>

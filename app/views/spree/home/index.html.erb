@@ -6,8 +6,7 @@
 
 <div data-hook="homepage_products">
   <% cache(cache_key_for_products) do %>
-    <div class="container">
+  <!-- If customer require banner wide enable here container -->
       <%= render :partial => 'spree/shared/products', :locals => { :products => @products } %>
-    </div>
   <% end %>
 </div>
