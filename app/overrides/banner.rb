@@ -18,8 +18,6 @@ Deface::Override.new(
          <div class='carousel-caption'>
            <br /><br />
            <%= link_to Spree.t(:shop_now), spree.products_path, class: 'btn-shop' %><br />
-           <div class='fb-like' data-share='true' data-width='450' data-show-faces='true'>
-           </div>
          </div>
        </div>
      </div>
