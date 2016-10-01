@@ -24,45 +24,42 @@
 <div >
   </div>
     </div>
-    <div class="col-sm-6 col-md-6 col-lg-6">
-      <form action="subscribe" id="invite" method="POST" onsubmit="return false;">
+    <div class="col-sm-6 col-md-6 col-lg-5">
+      <br>
+      <p>
+        <h3><strong>Need Help?</strong></h3>
         <br>
-        <p>
-          <h3><strong>Need Help?</strong></h3>
+        Write us your inquiry.
+      </p>
+      <%= form_for :form, url: main_app.forms_path do |f| %>
+      <form class="col-md-6">
+          <%= f.text_field :name, required:true, type:"text", placeholder:"Type your Name", class: "form-control" %>
           <br>
-          Write us your inquiry.
-        </p>
-      <div class="col-md-8">
-          <input class="form-control" type="text" placeholder="Type your Name" name="name" id="name">
-          </input>
+          <%= f.text_field :phone, required:true, type:"tel", placeholder:"Tel. number", class: "form-control" %>
           <br>
-          <input class="form-control" type="text" placeholder="+31.." name="phone_number" id="phone">
-          </input>
+          <%= f.text_field :email, required:true, type:"email", placeholder:"youremail@email.com", class: "form-control" %>
           <br>
-          <input class="form-control" type="text" placeholder="your@email.com" name="email" id="email">
-          </input>
-          <br>
-          <input class="form-control" type="text" placeholder="Ref No." name="name" id="text">
-          </input>
-          <br>
+          <%= f.text_field :reference, required:true, type:"text", placeholder:"Order Confimation No.", class: "form-control" %>
+          <!-- <br>
           <select class="form-control">
             <option>Select the title:</option>
             <option>About the Product</option>
             <option>Payment</option>
             <option>Refund</option>
             <option>Follow Up</option>
-          </select>
+          </select> -->
           <br>
-          <textarea class="form-control" type="text-decoration" placeholder="your@email.com" name="email" id="email">
-          </textarea>
+          <%= f.text_area :message, required:true, type:"text", placeholder:"Your message", class: "form-control" %>
           <br>
-          <input class="btn btn-block btn-success" type="submit" value="Send">
-          </input>
+          <div class="hidden">
+            <%= f.text_field :nickname, hint: 'leave this blanck' %>
+          </div>
+            <%= f.submit 'Send Message', class:"btn btn-block btn-success" %>
           <br>
         </div>
         <div class="col-md-3"><span id="result"></span></div>
-      </div>
       </form>
+      <% end %>
     </div>
   </div>
 
