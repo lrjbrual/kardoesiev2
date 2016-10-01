@@ -89,7 +89,7 @@ Deface::Override.new(
                 <%= link_to Spree.t(:home), spree.root_path %>
               </li>
               <li id='products-link' data-hook><%= link_to Spree.t(:products), spree.products_path %></li>
-              <li id='about-link' data-hook><%= link_to Spree.t(:contact_us), main_app.contact_path %></li>
+              <li id='about-link' data-hook><%= link_to Spree.t(:contact_us), main_app.forms_path %></li>
               <li class='dropdown'>
                 <a class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Account</a>
                 <ul class='dropdown-menu'>

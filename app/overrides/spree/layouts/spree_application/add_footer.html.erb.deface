@@ -43,5 +43,5 @@
     </div>
   </div>
   <hr>
-  <p class="muted">© 2016 <strong>Kardoesie.</strong> All rights reserved. &nbsp;&nbsp;<a href="#">Terms</a>&nbsp;<a href="#">Privacy</a>&nbsp; &nbsp;&nbsp; Made with Love&nbsp;<i class="fa fa-heart" aria-hidden="true"></i> by&nbsp;<strong><a href="http://lrjbrual.com">RyanJeff</a></strong></p>
+  <p class="muted">© <%= Time.now.year %>&nbsp;<strong>Kardoesie.</strong> All rights reserved. &nbsp;&nbsp;<a href="#">Terms</a>&nbsp;<a href="#">Privacy</a>&nbsp; &nbsp;&nbsp; Made with Love&nbsp;<i class="fa fa-heart" aria-hidden="true"></i> by&nbsp;<strong><a href="http://lrjbrual.com">RyanJeff</a></strong></p>
 </footer>

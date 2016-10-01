@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The page you were looking for doesn't exist (404)</title>
-  <link rel="shortcut icon" type="image/png"  href="/12restaurant.ico"/>
+  <title>We're sorry, but something went wrong (500)</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" type="image/png"  href="/12restaurant.ico"/>
   <style>
   body {
     background-color: #EFEFEF;
@@ -11,11 +11,13 @@
     text-align: center;
     margin: 0;
   }
+
   div.dialog {
     width: 0 auto;
     max-width: 34.2em;
     margin: 5em auto 0;
   }
+
   div.dialog > div {
     border: 1px solid #CCC;
     border-right-color: #999;
@@ -28,12 +30,15 @@
     padding: 7px 16% 0;
     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
   }
+
   h1 {
-    font-size: 19px;
+    padding-top: 140px;
+    font-size: 30px;
     font-weight: bold;
-    color: #730E15;
+    color: yellow;
     line-height: 2em;
   }
+
   div.dialog > p {
     margin: 0 0 1em;
     padding: 1em;
@@ -47,24 +52,23 @@
     color: #666;
     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
   }
-div.dialog > p >a {
-}
  .img-background{
-    background-image: url("404.jpg");
+    background-image: url("500.jpg");
     width: 370px;
     height: 290px;
+    opacity: 0.8;
   }
   </style>
 </head>
+
 <body>
-  <!-- This file lives in public/404.html -->
+  <!-- This file lives in public/500.html -->
   <div class="dialog">
     <div class="img-background">
-      <h1>The page you were looking for doesn't exist.</h1>
-      <p><strong>You may have mistyped the address or the page may have moved.</strong></p>
+      <h1>We're sorry, but something went wrong.</h1>
     </div>
-    <p><a href="http://kardoesie.nl">Click to go back to the Home page</a></p>
+    <p><a href="http://12restaurants.com">Click to go back to the Home page</a></p>
   </div>
-    <img src="/logo.png" alt="image-logo" style="width: 380px;">
+    <img src="/logo.jpg" alt="image-logo" style="width: 380px;">
 </body>
 </html>

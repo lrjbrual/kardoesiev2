@@ -8,6 +8,7 @@ gem 'pg'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'redis'
+gem 'mail_form'
 
 gem 'sass-rails'
 gem 'jquery-rails'
@@ -32,6 +33,5 @@ gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 'master'
-gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: 'master'
 
 gem 'rails_12factor', group: :production
