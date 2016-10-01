@@ -78,6 +78,7 @@ Deface::Override.new(
               <span class='icon-bar'></span>
               <span class='icon-bar'></span>
               <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
             </button>
             <%= image_tag(('logo.png'), class: 'company-logo') %>
           </div>

@@ -44,6 +44,12 @@ body {
     color: #611700;
     height: 50px;
 }
+/* navigation mobile */
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+    background-color: #611700;
+}
+/* end navigation mobile */
 img.company-logo{
   height: 50px;
   width:180px;
